@@ -15,7 +15,7 @@ contract A{
     }
     address calcaddr;
       constructor(address addr_){
-        calcaddr = addr_
+        calcaddr = addr_;
       }
 
     function doOperations(uint a,uint b,operations op)public returns(uint){
