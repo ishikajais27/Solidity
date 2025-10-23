@@ -16,6 +16,7 @@ constructor() {
 }
 modifier onlyOwner(){
     require(owner == msg.sender,"Not Owner");
+    _;
 }
 
 }
