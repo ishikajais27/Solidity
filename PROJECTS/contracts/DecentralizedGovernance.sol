@@ -7,7 +7,6 @@
 // 3. token-based governance
 
 
-
 contract DecentralizedGovernance {
     struct Proposal {
         uint id;
